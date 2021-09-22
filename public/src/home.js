@@ -1,3 +1,4 @@
+//HELPER FUNCTION USED IN GETTOTALBOOKSCOUNT
 function helperFunction(arr){
   return arr.reduce((counter, index) => counter+= 1, 0);
 }
